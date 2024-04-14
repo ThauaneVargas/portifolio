@@ -1,0 +1,330 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 0 auto;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62,5%;
+    overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body { 
+    background-image: url(imagem/tela4);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1400px;
+    padding: 3%;
+    margin-top:  auto;
+}
+nav img {
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    font-size: 35px;
+    font-style: italic;
+    color: pink;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul a{ 
+    color: white;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    border-radius: 20px;
+    transition: 0.6s;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header{
+    background: none;
+}
+.exercicio {
+    height: 115px;
+    font-size: 30px;
+    color: rgb(43, 100, 86);
+    margin-top: 400px;
+    align-items: end;
+    text-align: left;
+}
+.exercicio p {
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+    margin-left: 1000px;
+    
+    
+}
+ 
+ .butseg{
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    border-radius: 30px;
+    transition: 0.6s;
+    display: block;
+    object-position: left;
+    
+ }
+
+/* Sobre */
+
+.textoI {
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-color: rgb(93, 158, 136);
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 100px;
+    text-align: center;
+}
+
+.titulo {
+    color: rgb(22, 12, 51);
+    height: auto;
+    font-size: 30px;
+}
+
+.contentsobre {
+    display: table;
+}
+
+.img-yoga {
+    display: table-cell;
+    float: left; 
+    padding-left: 30px;
+}
+
+.conteudo {
+    display: table-cell;
+    float: left;
+    width: 550px;
+    margin-top: 60px;
+    text-align:justify;
+}
+
+/* final */
+
+/* prof **/
+
+.tituloII {
+    color: antiquewhite;
+    font-size: 20px;
+    margin: auto;
+    padding: 20px;
+}
+
+.prof {
+    background-color: rgb(22, 104, 78);
+    margin: auto;
+    height: 500px;
+    display: flex;
+    width: auto;
+    
+}
+
+
+.foto1{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid rgb(188, 197, 195);
+    margin: 50px;
+    padding: 5px;
+}
+
+.foto2{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid rgb(188, 197, 195);
+    margin: 50px;
+    padding: 5px;
+    
+}
+
+.foto3{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid rgb(188, 197, 195);
+    margin: 50px;
+    padding: 5px;
+
+  
+}
+
+
+
+/** precos **/
+
+.estilo {
+    max-width: 1520px;
+    width: 100%;
+    background-color: #4e7e4e;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabela {
+    background-color: rgb(160, 165, 164);
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgb(35, 156, 204);
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tabela div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+.tabela h1 {
+    font-size: 1.9rem;
+}
+
+.tabela h2{
+    font-size: 1rem;
+    color: #226e79;
+}
+
+.tabela button {
+    background-color:  #226e79;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 25px;
+    float: left;
+    margin: 14px;
+    cursor: pointer;
+    transition: 0.3s backgorund;
+}
+.tabela button:hover {
+    transition: 0.3s backgorund;
+    background-color: aquamarine;
+
+}
+
+/**fim**/
+
+/* rodape */
+
+footer {
+    width: 110%;
+}
+
+.footer-link{
+    text-decoration: none;
+}
+.primfinal {
+    background-color:#2e5c45;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+.segfinal h1 {
+    margin-bottom: 0,75rem;
+}
+
+.segfinal .footer-medial {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.segfinal .footer-media {
+    display: flex;
+    height: 1.5rem;
+    width: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0,4s;
+}
+
+.segfinal.footer-link i {
+    font-size: 1.25rem;
+
+}
+
+.segfinal .footer-media:hover {
+    opacity: 0.8;
+
+}
+.Instagram {
+    background-color: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+.Facebook {
+    background-color: #4267b3;
+
+}
+
+.Whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+
+}
+
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
